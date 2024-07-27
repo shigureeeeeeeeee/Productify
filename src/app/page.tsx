@@ -24,11 +24,11 @@ const IndexPage = () => {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-        {status === 'unauthenticated' && <LandingPage />}
+        <LandingPage />
       </main>
       <Footer />
     </div>
   );
 };
 
-export default IndexPage
+export default IndexPage;
